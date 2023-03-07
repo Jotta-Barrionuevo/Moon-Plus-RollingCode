@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="practica de html y css" />
+    <meta
+      name="keywords"
+      content="Estrella+, Series, Peliculas, On demand, Servicios streaming"/>
+    <meta
+      name="author"
+      content="Barrionuevo Juan carlos,Leonard Bruno Nicolas, Monachesi Cesar Ezequiel, Rodriguez	Nahuel Federico "/>
+      <title>Suscripción</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../img/favicon.ico">
+  </head>
+  <body class="bg-black">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid mx-0">
+          <a href="../index.html" class="navbar-brand">
+            <img src="../img/Red_Moon_-_Suspended_in_Space_-_Flickr_-_Sudhamshu.jpg" class="logo-moon" alt="logo moon"></a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navItem"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="navItem" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="../index.html" class="nav-link">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="./Peliculas.html" class="nav-link">Peliculas</a>
+              </li>
+              <li class="nav-item">
+                <a href="./Series.html" class="nav-link">Series</a>
+              </li>
+              <li
+                class="nav-item dropdown dropdown-mega position-static"
+                id="dropdown_mega_navbar"
+              >
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  data-bs-auto-close="outside"
+                  aria-expanded="false"
+                  >Categorías</a
+                >
+
+                <div
+                  class="dropdown-menu shadow bg-dark"
+                  aria-labelledby="navbarDropdown"
+                >
+                <div class="mega-content px-md-4">
+                  <div class="container-fluid">
+                    <div class="row justify-content-center">
+                      <div
+                        class="col-6 py-4 px-xl-5 px-4 border-end border-white w-50"
+                      >
+                        <h5 class="text-bg-dark">Categorias principales</h5>
+                        <div class="row" id="botones_mega">
+                          <aside class="col-lg-4 col-md-6 mb-3">
+                            <a href="../pages/error404.html">
+                              <button
+                                type="button"
+                                class="btn btn-secondary p-3 py-md-4"
+                              >
+                                Favoritos de Moon +
+                              </button>
+                            </a>
+                          </aside>
+
+                          <aside class="col-lg-4 col-md-6 mb-3">
+                            <a href="../pages/error404.html">
+                              <button
+                                type="button"
+                                class="btn btn-secondary p-3 py-md-4"
+                              >
+                                Niños
+                              </button>
+                            </a>
+                          </aside>
+                          <aside class="col-lg-4 col-md-6 mb-3">
+                            <a href="../pages/error404.html">
+                              <button
+                                type="button"
+                                class="btn btn-secondary p-3 py-md-4"
+                              >
+                                Peliculas añadidas recientemente
+                              </button></a
+                            >
+                          </aside>
+
+                          <aside class="col-lg-4 col-md-6 mb-md-3">
+                            <a href="../pages/error404.html">
+                              <button
+                                type="button"
+                                class="btn btn-secondary p-3 py-md-4"
+                              >
+                                Series añadidas recientemente
+                              </button></a
+                            >
+                          </aside>
+                        </div>
+                      </div>
+                      <div class="col-6 py-4 px-xl-5 px-4 w-50">
+                        <h5 class="text-bg-dark">Géneros</h5>
+                        <div class="row">
+                          <aside class="col-6">
+                            <ul class="list-group">
+                              <a
+                                href="../pages/cienciaFiccion.html"
+                                class="list-group-item .list-group-item-action bg-dark"
+                                >Ciencia ficción</a
+                              >
+
+                              <a
+                                href=""
+                                class="list-group-item .list-group-item-action bg-dark disabled"
+                                >Acción y aventura</a
+                              >
+
+                              <a
+                                href=""
+                                class="list-group-item .list-group-item-action bg-dark disabled"
+                                >Biografías</a
+                              >
+
+                              <a
+                                href="../pages/Comedia.html"
+                                class="list-group-item .list-group-item-action bg-dark"
+                                >Comedia</a
+                              >
+
+                              <a
+                                href=""
+                                class="list-group-item .list-group-item-action bg-dark disabled"
+                                >Crimen</a
+                              >
+                            </ul>
+                          </aside>
+                          <aside class="col-6">
+                            <ul class="list-group">
+                              <a
+                                href=""
+                                class="list-group-item .list-group-item-action bg-dark disabled"
+                                >Drama
+                              </a>
+                              <a
+                                href=""
+                                class="list-group-item .list-group-item-action bg-dark disabled"
+                                >Documentales</a
+                              >
+
+                              <a
+                                href=""
+                                class="list-group-item .list-group-item-action bg-dark disabled"
+                                >Terror y suspenso</a
+                              >
+
+                              <a
+                                href=""
+                                class="list-group-item bg-dark disabled"
+                                >Música</a
+                              >
+
+                              <a
+                                href=""
+                                class="list-group-item bg-dark disabled"
+                                >Romance</a
+                              >
+                            </ul>
+                          </aside>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown" id="dropdown_navbar">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categorías
+                </a>
+                <ul class="dropdown-menu bg-dark" id="dropdown_categoria_pag">
+                  <h6 class="text-light dropdown-item fw-bold">
+                    Categorias principales
+                  </h6>
+
+                  <li>
+                    <a class="dropdown-item" href="#">Favoritos de Moon+</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Niños</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Peliculas recientemente añadidas</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Series recientemente añadidas</a
+                    >
+                  </li>
+                  <h6 class="text-light dropdown-item fw-bold mt-4">Géneros</h6>
+                  <li>
+                    <a class="dropdown-item" href="./cienciaFiccion.html"
+                      >Ciencia ficción</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#"
+                      >Acción y aventura</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#">Biografías</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./Comedia.html">Comedia</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#">Crimen</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#">Drama</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#">Documentales</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#"
+                      >Terror y suspenso</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item disabled" href="#"></a>Música</li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#"></a>Romance
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="./Iniciarsesion.html" class="nav-link"
+                  >Iniciar sesión</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./suscripcion.html" class="nav-link active">Subscribir</a>
+              </li>
+              <form class="busqueda">
+                <div class="formulario_enviar">
+                  <label for="busqueda"></label>
+                  <input
+                    type="text"
+                    class="rounded-1"
+                    placeholder="Busqueda..."
+                    size="15px"
+                    minlength="2"
+                    maxlength="30"
+                  />
+                  <button
+                    type="submit"
+                    class="btn-enviar-caja rounded-1"
+                    id="btn-enviar"
+                  >
+                    <i class="bi bi-search text-danger"></i>
+                  </button>
+                </div>
+              </form>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="fondo">
+      <section>
+        <div class="container">
+          <h2 class="text-white display-3 text-center mt-5">
+            Planes disponibles
+          </h2>
+          <p class="text-white text-center mb-5">
+            Con tu suscripcion primer mes gratis.
+          </p>
+          <article class="row">
+            <aside
+              class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-1"
+            >
+              <div class="card-body text-white">
+                <h5
+                  class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
+                >
+                  <b class="text-danger"
+                    >Moon <span class="text-secondary">+</span></b
+                  >
+                </h5>
+                <div
+                  class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
+                >
+                  <h4 class="text-center display-5">Premium</h4>
+                  <p class="text-center">
+                    Mira Moon+ en tu TV, computadora, celular y tablet. <br />
+                    Cantidad dispositivos <b>4</b><br />
+                    Calidad de video <b>Óptima</b><br />
+                    Resolución <b>Ultra HD 4k</b><br />
+                    Precio mensual<br /><b>$1050</b>
+                  </p>
+                </div>
+              </div>
+            </aside>
+            <aside
+              class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-2"
+            >
+              <div class="card-body text-white">
+                <h5
+                  class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
+                >
+                  <b class="text-danger"
+                    >Moon <span class="text-secondary">+</span></b
+                  >
+                </h5>
+                <div
+                  class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
+                >
+                  <h4 class="text-center display-5">Duo</h4>
+                  <p class="text-center">
+                    Mira Moon+ en tu TV, computadora, celular y tablet. <br />
+                    Cantidad dispositivos <b>2</b><br />
+                    Calidad de video <b>Mejor</b><br />
+                    Resolución <b>Full HD 1080p</b><br />
+                    Precio mensual<br /><b>$900</b>
+                  </p>
+                </div>
+              </div>
+            </aside>
+            <aside
+              class="col-md-4 mb-5 rounded-3 ps-5 pt-5 position-relative planes order-md-0"
+            >
+              <div class="card-body text-white">
+                <h5
+                  class="position-absolute bg-dark bg-opacity-50 top-0 start-0 border border-danger border-opacity-50 rounded-3 p-1"
+                >
+                  <b class="text-danger"
+                    >Moon <span class="text-secondary">+</span></b
+                  >
+                </h5>
+                <div
+                  class="border-bottom border-start border-danger border-opacity-50 p-3 text-end mb-2"
+                >
+                  <h4 class="text-center display-5">Classic</h4>
+                  <p class="text-center">
+                    Mira Moon+ en tu TV, computadora, celular y tablet. <br />
+                    Cantidad dispositivos <b>2</b><br />
+                    Calidad de video <b>Buena</b><br />
+                    Resolución <b>HD 720p</b><br />
+                    Precio mensual<br /><b>$700</b>
+                  </p>
+                </div>
+              </div>
+            </aside>
+          </article>
+        </div>
+      </section>
+      <section class="container" id="crearCuenta">
+        <article class="row justify-content-center my-5">
+          <div class="mb-5 text-center">
+            <img src="../img/moonpluslogo.jpg" alt="logo" class="w-50" />
+          </div>
+          <form class="col-md-7 col-lg-5 text-white">
+            <p>
+              <span class="fs-5">¿Ya tienes una cuenta en Moon+?</span
+              ><br />Accede a
+              <a href="../pages/Iniciarsesion.html" class="text-danger"
+                >inciar sesión</a
+              >
+            </p>
+            <h3 class="mb-4">Crear cuenta</h3>
+            <div class="mb-3">
+              <input
+                type="name"
+                name="nombre"
+                id="nombreCompleto"
+                placeholder="Nombre"
+                minlength="3"
+                maxlength="15"
+                required
+                class="form-control input_password text-bg-dark border-0 rounded-1"
+              />
+              <input
+                type="name"
+                name="apellido"
+                id="apellidos"
+                placeholder="Apellido"
+                minlength="3"
+                maxlength="20"
+                required
+                class="form-control input_password text-bg-dark border-0 rounded-1 mt-2"
+              />
+              <input
+                type="email"
+                name="correoElectronico"
+                id="correoelEctronico"
+                placeholder="correo@electronico.com"
+                minlength="6"
+                required
+                class="form-control input_email text-bg-dark border-0 rounded-1 mt-2"
+              />
+              <input
+                type="password"
+                name="password"
+                id="contraseña"
+                placeholder="Contraseña"
+                required
+                class="form-control input_password text-bg-dark border-0 rounded-1 mt-2"
+              />
+              <p>
+                Usa al menos seis caracteres (distingue mayúsculas y
+                minúsculas), incluido un número o carácter especial.
+              </p>
+              <input
+                type="password"
+                name="password"
+                id="contraseña"
+                placeholder="Repetir contraseña"
+                required
+                class="form-control input_password text-bg-dark border-0 rounded-1 mt-2"
+              />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="checkSuscripcion"
+              />
+              <label class="form-check-label" for="checkSuscripcion">
+                ¡Si! Quiero recibir actualizaciones y ofertas especiales y otra
+                información de Moon+.</label
+              >
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="checkSuscripcion"
+                required
+              />
+              <label class="form-check-label" for="checkSuscripcion">
+                Acepto términos y condiciones.</label
+              >
+            </div>
+            <div class="bg-dark p-2 rounded-2">
+              <p class="fs-6">
+                Moon+ usará tus datos para personalizar y mejorar tu experiencia
+                en Moon+ y para enviarte información sobre Moon+. Puedes cambiar
+                tus preferencias de comunicación en cualquier momento. Podemos
+                usar tus datos tal como se describe en nuestra
+                <a href="" class="text-danger">Politica de seguridad</a>, que
+                incluye compartirlos con el equipo de Moon+. Al hacer clic en
+                Continuar, reconoces que has leído nuestra
+                <a href="" class="text-danger">Politica de seguridad</a>.
+              </p>
+              <button
+                type="submit"
+                class="btn btn_continuar text-white fw-bold text-uppercase w-100"
+                href="../index.html"
+              >
+                Crear cuenta
+              </button>
+            </div>
+          </form>
+        </article>
+      </section>
+      <section
+        class="text-center position-fixed bottom-0 start-50 translate-middle-x"
+      >
+        <a href="#crearCuenta">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            class="bi bi-chevron-compact-down text-secondary"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
+            />
+          </svg>
+        </a>
+      </section>
+    </main>
+        <footer class="py-4">
+            <section class="container w-50">
+              <section
+                class="d-flex flex-row align-items-center justify-content-center fs">
+                <img src="../img/Red_Moon_-_Suspended_in_Space_-_Flickr_-_Sudhamshu.jpg" class="logo-moon" alt="logo moon">
+              </section>
+      
+              <article class="row text-secondary mt-4 justify-content-center">
+                <aside class="col-12 col-md-4 mt-2 text-center px-0">
+                  <a
+                    href="../pages/error404.html"
+                    class="text-secondary filtro_enlaces fs-3 ms-lg-2"
+                    ><i class="fa-brands fa-square-facebook"></i
+                  ></a>
+                  <a
+                    href="../pages/error404.html"
+                    class="text-secondary filtro_enlaces fs-3 mx-3 mx-lg-2"
+                    ><i class="fa-brands fa-square-twitter"></i
+                  ></a>
+                  <a
+                    href="../pages/error404.html"
+                    class="text-secondary filtro_enlaces fs-3"
+                    ><i class="fa-brands fa-square-instagram"></i
+                  ></a>
+                </aside>
+                <aside class="col-12 col-md-4 mt-2 text-center">
+                  <a
+                    href="../pages/contacto.html"
+                    class="text-secondary filtro_enlaces"
+                    >Contacto</a
+                  >
+                </aside>
+                <aside class="col-12 col-md-4 mt-2 text-center">
+                  <a
+                    href="../pages/nosotros.html"
+                    class="text-secondary filtro_enlaces"
+                    >Acerca de Moon +</a
+                  >
+                </aside>
+              </article>
+            </section>
+            <section class="container w-50 mt-4 text-secondary text-center">
+              <p class>&copy;Todos los derechos reservados</p>
+               <h5>Moon+</h5>  es un servicio por sucripción de pago, su contendido está
+                sujeto a disponibilidad.
+            </section>
+          </footer>
+    </body>
+
+    <script
+    src="https://kit.fontawesome.com/170be67319.js"
+    crossorigin="anonymous"
+  ></script>   
+    <script src="../js/bootstrap.min.js"></script>
+</html>

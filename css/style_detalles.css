@@ -1,0 +1,350 @@
+.banner{    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+
+.detalle_el_paciente .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
+   background-size: cover;
+}
+.detalle_chucky .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/chucky.jpg);
+   background-size: cover;
+ 
+}
+.detalle_deadpool .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/deadpool.jpg);
+   background-size: cover;
+  
+}
+.detalle_topgun .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/topgun.jpg);
+   background-size: cover;
+}
+.detalle_walkingdead .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/walkingdead.jpg);
+   background-size: cover;
+}
+.detalle_freeguy .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/freeguy.jpg);
+   background-size: cover;
+}
+.detalle_ad_astra .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/adastra.jpg);
+   background-size: cover;
+}
+.detalle_alien .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/Alien.jpg);
+   background-size: cover;
+}
+.detalle_aliens .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/aliens.jpg);
+   background-size: cover;
+}
+.detalle_alien_3 .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/alien3.jpg);
+   background-size: cover;
+}
+.detalle_alien_covenant .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/alienCoventant.jpg);
+   background-size: cover;
+  
+}
+.detalle_alien_resurrection .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesCienciaFiccion/alienresurrection.jpg);
+   background-size: cover;
+  
+}
+.detalle_30_nochesconmiex .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/30nochesconmiex.webp);
+   background-size: cover;
+}
+.detalle_3idiotas .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/3idiotasfhd.jpg);
+   background-size: cover;
+}
+.detalle_500diasconella .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/500daysofsummer.jpg);
+   background-size: cover;
+}
+.detalle_absolutelyfabulous .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/fabu.jpg);
+   background-size: cover;
+}
+.detalle_alamala .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/alamala2.jpg);
+   background-size: cover;
+}
+.detalle_aliensstolemybody .banner{
+  background-image: linear-gradient(0deg, rgba(0,0,0, 1) 20%, rgba(0,0,0, 0.3) 80%, rgba(0,0,0,0) 100%), url(../img/DetallesComedia/Aliensstoylemy.jpg);
+   background-size: cover;
+}
+
+
+
+.grilla{
+    min-width: 300px;
+    min-height: 800px;
+    height: 120vh;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 20vh 8vh 6vh auto 5vh auto 5vh auto;
+}
+.detalles{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: small;
+}
+
+.btn_banner{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+}
+
+.descripcion{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.detalles_titulo{
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.mas_detalles{
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: small;
+}
+
+.sugerencias_titulo{
+    grid-row-start: 7;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.sugerencias{
+    grid-row-start: 8;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+@media all and (min-width: 0px) and (max-width: 767px){
+  .grilla{
+      min-height: 100vh;
+      grid-template-columns: 100%;
+      grid-template-rows: 20vh 8.5vh 7vh auto 5vh auto 5vh auto;
+      row-gap: 25px;   
+  }
+
+  .detalle_el_paciente .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
+      background-size: contain;
+  }
+  .detalle_chucky .banner{
+    min-width: 300px;
+    background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/chucky.jpg);
+    background-size: contain;
+  }
+  .detalle_deadpool .banner{
+    min-width: 300px;
+    background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/deadpool.jpg);
+    background-size: contain;
+  }
+  .detalle_topgun .banner{
+    min-width: 300px;
+    background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/topgun.jpg);
+    background-size: contain;
+  }
+  .detalle_walkingdead .banner{
+    min-width: 300px;
+    background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/walkingdead.jpg);
+    background-size: contain;
+  }
+  .detalle_freeguy .banner{
+    min-width: 300px;
+    background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/freeguy.jpg);
+    background-size: contain;
+  }
+
+  .detalle_ad_astra .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesCienciaFiccion/adastra.jpg);
+      background-size: contain;
+  }
+  .detalle_alien .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesCienciaFiccion/Alien.jpg);
+      background-size:contain;
+    }
+    .detalle_aliens .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesCienciaFiccion/aliens.jpg);
+      background-size:contain;
+    }
+    .detalle_alien_3 .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesCienciaFiccion/alien3.jpg);
+      background-size:contain;
+  }
+    .detalle_alien_covenant .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesCienciaFiccion/alienCoventant.jpg);
+      background-size:contain
+    }
+    .detalle_alien_resurrection .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesCienciaFiccion/alienresurrection.jpg);
+      background-size:contain
+    }
+
+    .detalle_30_nochesconmiex .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesComedia/30nochesconmiex.webp);
+      background-size:contain;
+    }
+    .detalle_3idiotas .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesComedia/3idiotasfhd.jpg);
+      background-size:contain;
+    }
+    .detalle_500diasconella .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesComedia/500daysofsummer.jpg);
+      background-size:contain;
+  }
+    .detalle_absolutelyfabulous .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesComedia/fabu.jpg);
+      background-size:contain
+    }
+    .detalle_alamala .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesComedia/alamala2.jpg);
+      background-size:contain
+    }
+    .detalle_aliensstolemybody .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 20vh, rgba(0,0,0, 0.2) 21vh, rgba(0,0,0,0.8) 24vh, rgba(0,0,0,1) 25vh), url(../img/DetallesComedia/Aliensstoylemy.jpg);
+      background-size: contain;
+    }
+
+
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+    .grilla{
+        min-height: 100vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 20vh 8.5vh 7vh auto 5vh auto 5vh auto;
+        row-gap: 25px;   
+    }
+
+    .detalle_el_paciente .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/03_Gallery_ThePatientC-e1668434559811.webp);
+        background-size: contain;
+    }
+    .detalle_chucky .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/chucky.jpg);
+      background-size: contain;
+    }
+    .detalle_deadpool .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/deadpool.jpg);
+      background-size: contain;
+    }
+    .detalle_topgun .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/topgun.jpg);
+      background-size: contain;
+    }
+    .detalle_walkingdead .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/walkingdead.jpg);
+      background-size: contain;
+    }
+    .detalle_freeguy .banner{
+      min-width: 300px;
+      background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/freeguy.jpg);
+      background-size: contain;
+    }
+    .detalle_ad_astra .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 28vh, rgba(0,0,0, 0.2) 30vh, rgba(0,0,0,0.8) 32vh, rgba(0,0,0,1) 34vh), url(../img/DetallesCienciaFiccion/adastra.jpg);
+        background-size: contain;
+    }
+    .detalle_alien .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesCienciaFiccion/Alien.jpg);
+        background-size:contain;
+      }
+      .detalle_aliens .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesCienciaFiccion/aliens.jpg);
+        background-size:contain;
+      }
+      .detalle_alien_3 .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesCienciaFiccion/alien3.jpg);
+        background-size:contain;
+    }
+      .detalle_alien_covenant .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesCienciaFiccion/alienCoventant.jpg);
+        background-size:contain
+      }
+      .detalle_alien_resurrection .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesCienciaFiccion/alienresurrection.jpg);
+        background-size:contain
+      }
+      .detalle_30_nochesconmiex .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesComedia/30nochesconmiex.webp);
+        background-size:contain
+      }
+      .detalle_3idiotas .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesComedia/3idiotasfhd.jpg);
+        background-size:contain
+      }
+      .detalle_500diasconella .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesComedia/500daysofsummer.jpg);
+        background-size:contain
+      }
+      .detalle_absolutelyfabulous .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesComedia/fabu.jpg);
+        background-size:contain
+      }
+      .detalle_alamala .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesComedia/alamala2.jpg);
+        background-size:contain
+      }
+      .detalle_aliensstolemybody .banner{
+        min-width: 300px;
+        background-image: linear-gradient(180deg, rgba(0,0,0, 0) 24vh, rgba(0,0,0, 0.2) 26vh, rgba(0,0,0,0.8) 28vh, rgba(0,0,0,1) 30vh), url(../img/DetallesComedia/Aliensstoylemy.jpg);
+        background-size:contain
+      }
+
+}
+
+    
