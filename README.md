@@ -16,9 +16,9 @@ se evaluo del mismo el uso de HTML y CSS.
  En un terminal ejecuta el siguiente comando:
 
 ```
-git clone 
+git clone https://github.com/Jotta-Barrionuevo/Moon-Plus-RollingCode.git
 
 ```
 ## Autores
 
-Juan carlos Barrionuevo
+Barrionuevo Juan carlos, Leonard Bruno Nicolas, Monachesi Cesar Ezequiel, Rodriguez	Nahuel Federico
